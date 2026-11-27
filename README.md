@@ -159,23 +159,35 @@ The administrator area includes tools for:
 - Audit-log review
 - Demand insights
 
-## Technology stack
+## 🛠️ Tech Stack
 
-| Technology | How it is used |
-| --- | --- |
-| **React 19** | Component-based user interface and application screens. |
-| **TypeScript** | Type-safe application code, data models, and service logic. |
-| **Vite 8** | Development server, module bundling, and production build tooling. |
-| **Tailwind CSS 4** | Utility-first styling, integrated through the Tailwind Vite plugin. |
-| **React Router 7** | Client-side navigation, nested role areas, route parameters, and protected routes. |
-| **Motion** | Interface transitions and motion effects, with reduced-motion preferences respected. |
-| **Lucide React** | Icon system used throughout the interface. |
-| **qrcode** | QR code generation for worker passport/verification flows. |
-| **@google/genai** | Optional Gemini-powered analysis in the home Problem Finder. |
-| **Web Crypto API** | Client-side password hashing using PBKDF2-SHA256 and random salts. |
-| **localStorage** | Browser-side persistence for structured application data and session information. |
-| **IndexedDB** | Browser-side storage for uploaded evidence and job media files. |
-| **Web Speech API** | Voice input in supported browsers. |
+### Frontend
+![React](https://img.shields.io/badge/React_19-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite_8-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS_4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+
+### Routing & UI Libraries
+![React Router](https://img.shields.io/badge/React_Router_7-CA4245?style=for-the-badge&logo=reactrouter&logoColor=white)
+![Motion](https://img.shields.io/badge/Motion-FFFFFF?style=for-the-badge&logo=framer&logoColor=black)
+![Lucide React](https://img.shields.io/badge/Lucide_React-F56565?style=for-the-badge&logo=lucide&logoColor=white)
+
+### AI & APIs
+![Google Gemini](https://img.shields.io/badge/Google_Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)
+![Web Crypto API](https://img.shields.io/badge/Web_Crypto_API-2563EB?style=for-the-badge)
+![Web Speech API](https://img.shields.io/badge/Web_Speech_API-00897B?style=for-the-badge)
+
+### Browser Storage & Utilities
+![LocalStorage](https://img.shields.io/badge/LocalStorage-7952B3?style=for-the-badge)
+![IndexedDB](https://img.shields.io/badge/IndexedDB-4479A1?style=for-the-badge)
+![QRCode](https://img.shields.io/badge/QR_Code-000000?style=for-the-badge&logo=qrcode&logoColor=white)
+
+### Development Tools
+![NPM](https://img.shields.io/badge/NPM-CB3837?style=for-the-badge&logo=npm&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+
+
 
 ### Development and build tools
 
